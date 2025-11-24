@@ -1,5 +1,5 @@
-print("Hello from CI/CD pipeline!")
+def greet():
+    return "Hello from CI/CD pipeline!"
 
-import time
-while True:
-    time.sleep(60)  # keeps the container alive
+if __name__ == "__main__":
+    print(greet())
