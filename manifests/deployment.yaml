@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: hashimzadafarid01/backend-app:latest
+        image: hashimzadafarid01/devops-pipeline-demo:latest
         ports:
         - containerPort: 8000
         readinessProbe:
